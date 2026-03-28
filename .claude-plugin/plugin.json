@@ -1,0 +1,18 @@
+{
+  "name": "funnel-builder",
+  "description": "End-to-end landing page and funnel builder: design, copy, Etch page builder, WordPress deployment, n8n integrations, payment flows, and conversion tracking.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Razi Ben Shoshan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "landing-page",
+    "funnel",
+    "etch",
+    "wordpress",
+    "n8n",
+    "acss",
+    "conversion-tracking"
+  ]
+}

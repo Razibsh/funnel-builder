@@ -1,0 +1,55 @@
+{
+  "project": "Client Name",
+  "language": "he",
+  "direction": "rtl",
+
+  "wordpress": {
+    "url": "https://lp.example.com",
+    "user": "admin",
+    "appPassword": ""
+  },
+
+  "design": {
+    "theme": "dark",
+    "primaryColor": "#edad24",
+    "primaryHover": "#d49b1e",
+    "baseColor": "#110a00",
+    "headingFont": "Rubik",
+    "bodyFont": "Noto Sans Hebrew",
+    "baseRadius": "5px",
+    "buttonRadius": "980px"
+  },
+
+  "n8n": {
+    "url": "https://n8n.example.com",
+    "webhookPath": "/webhook/client-funnel",
+    "webhookSecret": ""
+  },
+
+  "payment": {
+    "provider": "sumit",
+    "companyId": 0,
+    "publicKey": "",
+    "apiKey": ""
+  },
+
+  "tracking": {
+    "fbPixelId": "",
+    "tiktokPixelId": "",
+    "gtmContainerId": "",
+    "gaId": ""
+  },
+
+  "turnstile": {
+    "siteKey": "",
+    "secretKey": ""
+  },
+
+  "funnel": {
+    "type": "free-trial",
+    "trialDays": 30,
+    "chargeAmount": 0,
+    "productId": "",
+    "source": "WEBSITE::FUNNEL-NAME"
+  }
+}

@@ -1,0 +1,9 @@
+# Project-specific configs with secrets
+funnel-config.json
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
