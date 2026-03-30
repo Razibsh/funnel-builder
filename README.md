@@ -27,26 +27,70 @@ Or use the orchestrator agent to be guided through all phases.
 
 ## Install
 
-**Step 1:** Add the marketplace (one time):
+You need [Claude Code](https://claude.ai/code) (Anthropic's CLI tool) to use this plugin. If you don't have it yet, install it first.
+
+### Step 1: Register the plugin source
+
+Open Claude Code in your terminal and run:
+
 ```
 /plugin marketplace add Razibsh/funnel-builder
 ```
 
-**Step 2:** Install the plugin:
+This tells Claude Code where to find the plugin. You only need to do this once — it stays registered across all your projects.
+
+### Step 2: Install the plugin
+
 ```
 /plugin install funnel-builder@Razibsh
 ```
 
-## Quick Start
+You'll see a screen asking where to install it. Choose one of:
+
+- **User scope** — makes the plugin available in every project you open with Claude Code. Best for most people.
+- **Project scope** — makes the plugin available for everyone who works on a specific project/repo. Good for teams.
+- **Local scope** — makes the plugin available only for you, only in the current folder. Good for testing or keeping things separate.
+
+That's it! The plugin is now installed.
+
+### Step 3: Verify it works
+
+Open any folder in Claude Code (or stay where you are) and type:
 
 ```
-/funnel-builder:init          # Set up your project
+/funnel-builder:init
+```
+
+If the plugin loaded correctly, it will start the project setup wizard. If you see "unknown command", double-check that the install completed and you're in the right scope.
+
+## Quick Start
+
+Once installed, you have 7 slash commands — run them in order to build a complete funnel:
+
+```
+/funnel-builder:init          # Set up your project config
 /funnel-builder:brief         # Define what you're building
-/funnel-builder:copy          # Generate the copy
-/funnel-builder:design        # Create mockups
-/funnel-builder:build         # Generate Etch JSON
+/funnel-builder:copy          # Generate the landing page copy
+/funnel-builder:design        # Create visual mockups
+/funnel-builder:build         # Generate Etch page builder JSON
 /funnel-builder:integrate     # Wire up n8n + payments
 /funnel-builder:track         # Add conversion tracking
+```
+
+You can also run them individually if you only need one step (e.g., just tracking setup for an existing page).
+
+## Uninstall
+
+To remove the plugin:
+
+```
+/plugin uninstall funnel-builder@Razibsh
+```
+
+To also remove the marketplace registration:
+
+```
+/plugin marketplace remove Razibsh
 ```
 
 ## What's inside
