@@ -28,7 +28,7 @@ Or use the orchestrator agent to be guided through all phases.
 ## Install
 
 ```
-/plugin install your-username/funnel-builder
+/plugin install Razibsh/funnel-builder
 ```
 
 ## Quick Start
