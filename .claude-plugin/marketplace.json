@@ -1,0 +1,13 @@
+{
+  "name": "Razibsh",
+  "owner": {
+    "name": "Razi Ben Shoshan"
+  },
+  "plugins": [
+    {
+      "name": "funnel-builder",
+      "source": ".",
+      "description": "End-to-end landing page and funnel builder: design, copy, Etch page builder, WordPress deployment, n8n integrations, payment flows, and conversion tracking."
+    }
+  ]
+}

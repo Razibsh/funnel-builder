@@ -27,8 +27,14 @@ Or use the orchestrator agent to be guided through all phases.
 
 ## Install
 
+**Step 1:** Add the marketplace (one time):
 ```
-/plugin install Razibsh/funnel-builder
+/plugin marketplace add Razibsh/funnel-builder
+```
+
+**Step 2:** Install the plugin:
+```
+/plugin install funnel-builder@Razibsh
 ```
 
 ## Quick Start
